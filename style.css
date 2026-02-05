@@ -1,0 +1,55 @@
+body{
+  margin:0;
+  font-family:Arial;
+  background:linear-gradient(135deg,#eafff2,#c8f7dc);
+}
+
+.menu{
+  background:#2e7d32;
+  padding:10px;
+}
+
+.menu button{
+  background:#66bb6a;
+  color:white;
+  border:none;
+  border-radius:20px;
+  padding:10px;
+  margin:5px;
+  cursor:pointer;
+}
+
+.seccion{
+  display:none;
+  padding:20px;
+}
+
+.seccion.activa{
+  display:block;
+}
+
+#bienvenida{
+  position:fixed;
+  inset:0;
+  background:linear-gradient(#a5d6a7,#4db6ac);
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.bienvenida-box{
+  background:white;
+  padding:30px;
+  border-radius:20px;
+  text-align:center;
+}
+
+.mensaje{
+  display:none;
+  padding:10px;
+  margin:10px;
+  border-radius:10px;
+}
+
+.bien{background:#c8e6c9;}
+.mal{background:#ffcdd2;}
