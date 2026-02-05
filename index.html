@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Guardianes del Medio Ambiente</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- BIENVENIDA -->
+<div id="bienvenida">
+  <div class="bienvenida-box">
+    <h1>🌍 Bienvenido Guardián del Planeta 🌱</h1>
+    <p>Aprende, juega y cuida el medio ambiente</p>
+    <button onclick="entrar()">✨ Comenzar ✨</button>
+  </div>
+</div>
+
+<!-- MENU -->
+<div class="menu">
+  <button onclick="mostrar('inicio')">🏠 Inicio</button>
+  <button onclick="mostrar('econoticias')">📰 Econoticias</button>
+  <button onclick="mostrar('videos')">🎥 Videos</button>
+  <button onclick="mostrar('Preguntas')">❓ Juegos</button>
+</div>
+
+<div id="mensaje" class="mensaje"></div>
+
+<!-- INICIO -->
+<div id="inicio" class="seccion activa">
+  <h1>🌍 Cuidemos el Medio Ambiente 🌱</h1>
+  <p>El medio ambiente es el hogar de todos los seres vivos.</p>
+</div>
+
+<!-- ECONOTICIAS -->
+<div id="econoticias" class="seccion">
+  <h2>🌿 Econoticias</h2>
+  <div id="tarjetas-container"></div>
+  <button id="ver-mas">🌟 Ver más noticias</button>
+</div>
+
+<!-- VIDEOS -->
+<div id="videos" class="seccion">
+  <h2>🎬 Videos</h2>
+  <div id="videos-container"></div>
+  <button id="ver-mas-videos">🌟 Ver más videos</button>
+</div>
+
+<!-- PREGUNTAS -->
+<div id="Preguntas" class="seccion">
+  <a href="darla.html" target="_blank">
+    <button>📘 JUEGOS</button>
+  </a>
+  <form id="quiz-form"></form>
+  <button id="enviar-quiz">Enviar respuestas</button>
+  <div id="resultado-quiz"></div>
+</div>
+
+<footer>
+  <p>&copy; 2026 Colegio Francisco García Jiménez</p>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
